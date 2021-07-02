@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLib", "CarLib.csproj", "{348CF7EE-5F5C-456B-9A8A-4C01DC2CBF72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWebAPI", "..\CarWebAPI\CarWebAPI.csproj", "{995139E4-B311-4013-B36B-B385EEFAB6B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWCF", "..\CarWCF\CarWCF.csproj", "{F061D503-420B-47BD-95DD-5DF073CD7E2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots", "{831DEE13-BE8A-4650-AB85-8B75D274156D}"
+	ProjectSection(SolutionItems) = preProject
+		..\CarScreenshots\WebAPIScreenshots\1-StartEngine.png = ..\CarScreenshots\WebAPIScreenshots\1-StartEngine.png
+		..\CarScreenshots\WCFServiceScreenshots\1-StartEngine.png = ..\CarScreenshots\WCFServiceScreenshots\1-StartEngine.png
+		..\CarScreenshots\WebAPIScreenshots\2-StopEngine.png = ..\CarScreenshots\WebAPIScreenshots\2-StopEngine.png
+		..\CarScreenshots\WCFServiceScreenshots\2-StopEngine.png = ..\CarScreenshots\WCFServiceScreenshots\2-StopEngine.png
+		..\CarScreenshots\WebAPIScreenshots\3-MoveCarForward.png = ..\CarScreenshots\WebAPIScreenshots\3-MoveCarForward.png
+		..\CarScreenshots\WCFServiceScreenshots\3-MoveCarForward.png = ..\CarScreenshots\WCFServiceScreenshots\3-MoveCarForward.png
+		..\CarScreenshots\WebAPIScreenshots\4-MoveCarBackward.png = ..\CarScreenshots\WebAPIScreenshots\4-MoveCarBackward.png
+		..\CarScreenshots\WCFServiceScreenshots\4-MoveCarBackward.png = ..\CarScreenshots\WCFServiceScreenshots\4-MoveCarBackward.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{348CF7EE-5F5C-456B-9A8A-4C01DC2CBF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348CF7EE-5F5C-456B-9A8A-4C01DC2CBF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348CF7EE-5F5C-456B-9A8A-4C01DC2CBF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348CF7EE-5F5C-456B-9A8A-4C01DC2CBF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{995139E4-B311-4013-B36B-B385EEFAB6B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{995139E4-B311-4013-B36B-B385EEFAB6B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{995139E4-B311-4013-B36B-B385EEFAB6B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{995139E4-B311-4013-B36B-B385EEFAB6B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F061D503-420B-47BD-95DD-5DF073CD7E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F061D503-420B-47BD-95DD-5DF073CD7E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F061D503-420B-47BD-95DD-5DF073CD7E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F061D503-420B-47BD-95DD-5DF073CD7E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DD54F9F-B681-4DFA-AFC5-3B00DBEE523B}
+	EndGlobalSection
+EndGlobal
